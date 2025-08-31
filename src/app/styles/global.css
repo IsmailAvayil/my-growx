@@ -1,0 +1,83 @@
+/* In your global.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* global.css */
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1 {
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 500;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 72.8px;
+  letter-spacing: 0%;
+
+  /* leading-trim: none; */
+}
+
+h3 {
+  /* font-family: 'Poppins', sans-serif; */
+  font-weight: 500;
+  font-style: normal; /* "Medium" is not a valid value for font-style, use "normal" */
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  /* leading-trim: none; */
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; /* "Regular" is not a valid value for font-style, use "normal" */
+  font-size: 18px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+  /* leading-trim: none; */
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.custom-dashed-border {
+  border: 1px dashed;
+  border-radius: 923px;
+  opacity: 1;
+  border-image: repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      transparent 10px,
+      #fe4a0f 10px,
+      #fe4a0f 20px
+    )
+    1;
+}
+.custom-dash {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: black; /* or any color */
+  border-radius: 923px;
+  border-image: repeating-linear-gradient(
+      to right,
+      black 0,
+      black 10px,
+      transparent 10px,
+      transparent 20px
+    )
+    1;
+}
