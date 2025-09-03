@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <div className="flex items-center justify-between py-[29.9px] px-6 relative">
-        <div className="flex items-center">
+        <Link href="/" className="flex items-center cursor-pointer">
           <Image
             src="assets/icons/logo.svg"
             alt="logo"
@@ -22,7 +22,7 @@ const Header = () => {
             className="object-contain"
           />
           <h2 className="text-[32px] font-[500]">GrowX</h2>
-        </div>
+        </Link>
 
         <ul className="bg-[#CCCCCC1A] rounded-[30px] flex px-6 py-3 gap-12 fixed left-1/2 transform -translate-x-1/2  z-50 backdrop-blur-md ">
           {menuItems.map((item) => {

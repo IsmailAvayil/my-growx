@@ -45,9 +45,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>{/* Add any metadata here */}</head>
-      <body className="wrapper">
+      <body className="">
         <Header />
-        <main>{children}</main> {/* Main content should go here */}
+        <main className="wrapper">{children}</main>{" "}
+        {/* Main content should go here */}
         <Footer />
       </body>
     </html>
