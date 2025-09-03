@@ -5,7 +5,7 @@ const plans = [
     id: 1,
     name: "Starter Plan",
     price: "$29",
-    description: "Lorem Ipsum is simply dummy.",
+    description: "Lorem Ipsum is simply dummy.,",
     features: [
       "Mistakes To Avoid",
       "Your Startup",
@@ -46,15 +46,15 @@ const plans = [
 ];
 const OurPricing = () => {
   return (
-    <div>
+    <>
       <h3 className="text-[#FF6F40]">Our Pricing</h3>
       <h1 className="mb-[58px]">Harness The Power Of Digital Marketing</h1>
-      <div className="flex justify-between">
+      <div className="grid grid-cols-3 gap-x-[30px]">
         {plans.map((plan) => (
           <PricingCard key={plan.id} plan={plan} />
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
