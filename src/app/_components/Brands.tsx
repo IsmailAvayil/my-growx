@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const brands = [
   { id: 1, name: "Brand 1", icon: "assets/icons/lightbox.svg" },
   { id: 2, name: "Brand 2", icon: "assets/icons/globalbank.svg" },

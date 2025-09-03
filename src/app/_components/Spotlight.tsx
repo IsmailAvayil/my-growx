@@ -45,11 +45,11 @@ const Spotlight = () => {
         </div>
         {/* <img src="assets/images/spotlight.svg" alt="spotlight" /> */}
 
-        <div className="absolute bottom-40 right-128">
+        <div className="absolute bottom-40 right-128 h-[100px] w-[100px]">
           <img
             src="assets/images/scroll-down.svg"
             alt="spotlight"
-            className="w-[100px] h-[100px]"
+            className="w-full h-full object-cover animate-[spin_5s_linear_infinite]"
           />
         </div>
         <div className="border border-solid border-[#FE4A0F] rounded-[923px] px-[25.61px] py-[25.94px] w-fit">

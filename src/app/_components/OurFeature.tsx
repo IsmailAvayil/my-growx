@@ -1,5 +1,5 @@
+/* eslint-disable */
 import React from "react";
-import Button from "../reusable-components/Button";
 import FeatureCard from "../components/ui/FeatureCard";
 
 const features = [

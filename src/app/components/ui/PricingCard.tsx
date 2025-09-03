@@ -1,11 +1,11 @@
-import Image from "next/image";
+/* eslint-disable */
 import React from "react";
 import PriceCardButton from "./PriceCardButton";
 
 const PricingCard = ({ plan }: any) => {
   return (
     <div
-      className={`border-b border-l border-r border-solid border-[#FFFFFF] rounded-[25px] shadow-[0px_2px_10px_0px_#0000001A] p-6 ${
+      className={`border-b border-l border-r border-solid border-[#FFFFFF] hover:border-[#FE4A0F] hover:border-3 rounded-[25px] shadow-[0px_2px_10px_0px_#0000001A] p-6 cursor-pointer ${
         plan?.active ? "bg-[#FFEFEA]" : "bg-[#FFFFFF]"
       }`}
     >
