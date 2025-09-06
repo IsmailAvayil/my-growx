@@ -3,8 +3,7 @@ import React from "react";
 
 const GraphGowth = () => {
   return (
-    <div className="relative">
-      <div></div>
+    <div className="relative top-[-53.315px]">
       <div className="absolute top-0 right-0">
         <div className="relative">
           <Image
@@ -23,7 +22,7 @@ const GraphGowth = () => {
           />
         </div>
       </div>
-      <div className="absolute top-[80px] right-[57px]">
+      <div className="absolute top-[80.18px] right-[58.96px]">
         <div className="relative">
           <Image
             src="assets/images/25percentage.svg"
@@ -41,7 +40,7 @@ const GraphGowth = () => {
           className=""
         />
       </div>
-      <div className="absolute top-[157px] right-[115px]">
+      <div className="absolute top-[159.13px] right-[119.62px]">
         <div className="relative">
           {" "}
           <Image
@@ -60,7 +59,7 @@ const GraphGowth = () => {
           className=""
         />
       </div>
-      <div className="absolute top-[235px] right-[155px]">
+      <div className="absolute top-[241.97px] right-[148.21px]">
         <div className="relative">
           {" "}
           <Image
