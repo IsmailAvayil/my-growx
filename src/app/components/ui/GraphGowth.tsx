@@ -4,6 +4,7 @@ import React from "react";
 const GraphGowth = () => {
   return (
     <div className="relative">
+      <div></div>
       <div className="absolute top-0 right-0">
         <div className="relative">
           <Image

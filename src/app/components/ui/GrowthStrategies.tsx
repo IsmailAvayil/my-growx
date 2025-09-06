@@ -23,18 +23,19 @@ const GrowthStrategies = () => {
   return (
     <div className="flex ">
       {growthCardsData.map((card, index) => (
-        <div key={index} className="flex items-start">
-          <div className="flex flex-col items-center space-y-2">
+        <div key={index} className="flex items-start ">
+          <div className="flex flex-col items-center gap-1">
             {card.stats.map((stat, i) => (
               <div className="flex items-center gap-[8.98px]" key={i}>
-                <div className="relative  bg-[#FFC1AD] rounded-full p-[11.37px]">
-                  <div className="bg-[#FE4A0F] rounded-full  px-[6.39px] pt-[16.55px] pb-[15.91px]">
+                <div className="relative  bg-[#FFC1AD] rounded-full  w-[51.19px] h-[51.19px] flex items-center justify-center">
+                  {/* <div className="bg-[#FE4A0F] rounded-full  px-[5.32px] pt-[16.55px] pb-[15.91px]"> */}
+                  <div className="bg-[#FE4A0F] rounded-full  w-[39.82px] h-[39.82px] flex items-center justify-center">
                     <Image
                       src="assets/images/strategy-value-1.svg"
                       alt="right-arrow"
-                      width={25.01}
+                      width={28.25}
                       height={7.36}
-                      className=""
+                      className="w-[28.25px] h-[7.36px]"
                     />
                   </div>
                 </div>
@@ -44,32 +45,18 @@ const GrowthStrategies = () => {
           </div>
 
           {/* Main card */}
-          <div className="flex flex-col">
-            <div className="ml-4">
+          <div className="flex flex-col border border-solid border-[#F0F0F0] rounded-[5px] shadow-[0px_4px_10px_0px_#0000001A] ml-[8.98px]">
+            <div className="">
               <Image
                 src="assets/images/growth-strategy.svg"
                 alt="strategies"
-                width={283.83}
+                width={281.83}
                 height={153.68}
+                className="w-[281.83px] h-[153.68px]"
               />
-              {/* Top section with progress and bars */}
-              {/* <div className="flex justify-between items-center bg-gradient-to-r from-orange-400 to-orange-500 text-white rounded-md px-4 py-3">
-              <div className="text-4xl font-bold">{card.progress}</div>
-              <div className="flex items-end space-x-1 h-16">
-                {card.barHeights.map((height, j) => (
-                  <div
-                    key={j}
-                    className="w-2 bg-white rounded"
-                    style={{ height: `${height}%` }}
-                  />
-                ))}
-              </div> */}
             </div>
           </div>
-
-          {/* Content */}
         </div>
-        // </div>
       ))}
     </div>
   );

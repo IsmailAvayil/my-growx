@@ -1,9 +1,9 @@
 import React from "react";
 
 interface ButtonProps {
-  text: string; // Text to be displayed inside the button
+  text: string;
 
-  onClick?: () => void; // Optional click handler
+  onClick?: () => void;
 }
 
 const Button: React.FC<ButtonProps> = ({
